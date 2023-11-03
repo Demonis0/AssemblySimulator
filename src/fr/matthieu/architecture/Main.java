@@ -11,7 +11,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Assembly simulator");
+        System.out.println("Welcome to Assembly simulator.");
         JFrame frame = new JFrame("Assembly Simulator");
         UI ui =new UI();
         frame.setContentPane(ui.rootPanel);
